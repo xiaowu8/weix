@@ -22,7 +22,6 @@ $weekarray=array("日","一","二","三","四","五","六");
     $data = [
         'touser' => '',
         'template_id' => $start->getTemplateList()['template_list'][0]['template_id'],//默认只给第一个模板发消息
-        'url' => 'https://ozxc.cn',
         'topcolor' => '#fdb3b0',
         'data' => [
             'date' => [
